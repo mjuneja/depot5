@@ -14,3 +14,9 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+
+
+$.get("http://localhost:3000/404.html", function() {
+	console.log("loaded 404");
+});
